@@ -1,0 +1,55 @@
+# Dependencies
+node_modules/
+
+# Expo / React Native
+.expo/
+.expo-shared/
+.expo-verify/
+dist/
+web-build/
+expo-env.d.ts
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+*.apk
+*.aab
+*.ipa
+
+# Native / Android / Gradle
+*.iml
+.gradle/
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+/local.properties
+
+# Environment & Secrets
+.env
+.env.local
+.env.*.local
+backend/.env
+levelup-app/.env
+
+# IDE / JetBrains
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+
+# OS, Testing & Logs
+.DS_Store
+Thumbs.db
+coverage/
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+*.log
+*.tmp
+*.bak
